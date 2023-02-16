@@ -23,7 +23,7 @@ export const renderAddNewNoteCard = () => {
     card.className = "col-md-4 col-sm-6 content-card";
   
     card.innerHTML = ` 
-          <div class="card border border-dark border-4 p-4 card-just-text d-flex justify-content-center align-items-center" 
+          <div class="card border  border-dark border-4 p-4 card-just-text d-flex justify-content-center align-items-center" 
           data-background="color" 
           data-color="blue" data-radius="none" 
           data-bs-toggle="modal" 

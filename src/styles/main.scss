@@ -1,34 +1,32 @@
 @import "~bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap");
 
 body {
-    min-height: 100vh;
-
+  min-height: 100vh;
 }
 
 .card {
-    cursor: pointer;
-    transition: all .3s ease;
-    height: 250px;
-    overflow:hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 250px;
+  overflow: hidden;
 
 
-    &-link {
-        text-decoration: none;
+  &-link {
+    text-decoration: none;
+  }
 
+  &:hover {
+    background: $primary;
+    color: $light;
+    .title {
+      color: $light !important;
     }
 
-    &:hover {
-        background: $primary;
-        color: $light;
-        .title{
-            color: $light !important;
-        }
-
-        .card-link {
-            color: $light;
-        }
+    .card-link {
+      color: $light;
     }
+  }
 }
+
+
